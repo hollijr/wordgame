@@ -1,0 +1,107 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 600px;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 3rem;
+    height: 4rem;
+    border: solid 1px lightgray;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.focused {
+    border-color: darkgrey;
+}
+
+.yellow {
+    background-color: lightgoldenrodyellow;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.gray {
+    background-color: rgb(236, 233, 233);
+}
+
+.key-row {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.key {
+   color:silver;
+   width: 2rem;
+   height: 3rem;
+   font-size: 2rem;
+}
+
+.keyboard {
+    margin-top: 2rem;
+}
+
+.special {
+    width: 4rem;
+    font-size: 1rem;
+}
+
+.center {
+    display: block;
+    margin: 2rem auto;
+    width: 30%;
+    position: relative;
+}
+
+.button {
+    width: 100%;
+}
+
+.winner {
+    font-size: 3rem;
+    color: green;
+    width: 100%;
+    text-align: center;
+}
+
+.not-winner {
+    font-size: 3rem;
+    color: crimson;
+    width: 100%;
+    text-align: center;
+}
+
+.row-marker {
+    width: 1rem;
+    height: 4rem;
+    border: none;
+    margin: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-left: 10px solid blue; 
+}
